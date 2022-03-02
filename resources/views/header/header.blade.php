@@ -11,7 +11,7 @@
         
             <a href="{{route('chisiamo')}}">Chi siamo</a>
             <a href="{{route('prodotti')}}">Prodotti.</a>
-            <a href="{{route('vision'}}">Vision</a>
+            <a href="{{route('vision')}}">Vision</a>
             <a href="{{route('contatti')}}">Contatti</a>
     </header>
 </body>

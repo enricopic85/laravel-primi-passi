@@ -32,13 +32,13 @@ Route::get('/chisiamo',function(){
 })->name('chisiamo');
 
 Route::get('/contatti',function(){
-    return view('listaheader.chisiamo');
+    return view('listaheader.contatti');
 })->name('contatti');
 
 Route::get('/prodotti',function(){
-    return view('listaheader.chisiamo');
+    return view('listaheader.prodotti');
 })->name('prodotti');
 
 Route::get('/vision',function(){
-    return view('listaheader.chisiamo');
+    return view('listaheader.vision');
 })->name('vision');
