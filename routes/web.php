@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/helloworld', function () {
-    return view('helloworld');
+    $data=[
+        'paragrafo1'=>"Laravel values beauty. We love clean code just as much as you do. Simple, elegant syntax puts amazing functionality at your fingertips. Every feature has been thoughtfully considered to provide a wonderful developer experience.",
+        'paragrafo2'=>"Or, let Laravel serve as a robust backend API for your Next.js application, mobile application, or other frontend. Either way, our starter kits will have you productive in minutes.",
+        'paragrafo3'=>"Nel mezzo del cammin di nostra vita mi ritrovai in una selva oscura che la diritta via era smarrita"
+    ];
+    return view('helloworld',[
+        "data"=>$data
+    ]);
 });
