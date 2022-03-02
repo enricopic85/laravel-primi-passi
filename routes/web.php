@@ -30,3 +30,15 @@ Route::get('/header',function(){
 Route::get('/chisiamo',function(){
     return view('listaheader.chisiamo');
 })->name('chisiamo');
+
+Route::get('/contatti',function(){
+    return view('listaheader.chisiamo');
+})->name('contatti');
+
+Route::get('/prodotti',function(){
+    return view('listaheader.chisiamo');
+})->name('prodotti');
+
+Route::get('/vision',function(){
+    return view('listaheader.chisiamo');
+})->name('vision');

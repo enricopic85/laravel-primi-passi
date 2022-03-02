@@ -10,9 +10,9 @@
     <header>
         
             <a href="{{route('chisiamo')}}">Chi siamo</a>
-            <a href="">Prodotti.</a>
-            <a href="">Vision</a>
-            <a href="">Contatti</a>
+            <a href="{{route('prodotti')}}">Prodotti.</a>
+            <a href="{{route('vision'}}">Vision</a>
+            <a href="{{route('contatti')}}">Contatti</a>
     </header>
 </body>
 </html>
