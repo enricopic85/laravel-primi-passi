@@ -23,3 +23,10 @@ Route::get('/helloworld', function () {
         "data"=>$data
     ]);
 });
+Route::get('/header',function(){
+    return view('header.header');
+});
+
+Route::get('/chisiamo',function(){
+    return view('listaheader.chisiamo');
+})->name('chisiamo');
